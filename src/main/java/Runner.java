@@ -39,8 +39,9 @@ public class Runner {
         scottishIslands.sort(String::compareTo);
 
 //        9. Print out all the islands using a for loop
-
-        System.out.println(scottishIslands);
+        for (String island : scottishIslands) {
+            System.out.println(island);
+        }
 
 //        NUMBERS
         List<Integer> numbers = new ArrayList<>();
