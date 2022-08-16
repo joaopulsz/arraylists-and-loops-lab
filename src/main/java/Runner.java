@@ -43,6 +43,8 @@ public class Runner {
             System.out.println(island);
         }
 
+        System.out.println(scottishIslands);
+
 //        NUMBERS
         List<Integer> numbers = new ArrayList<>();
         Collections.addAll(numbers, 1, 1, 4, 2, 7, 1, 6, 15, 13, 99, 7);
